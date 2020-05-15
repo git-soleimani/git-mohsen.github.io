@@ -1,0 +1,38 @@
+html { 
+    background: url(../img/header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+.title {
+    font-size: 30px;
+    text-align: unset;
+    color:white;
+
+}
+.dokme{
+   padding: 20px 75px;
+   cursor: pointer;
+   border-radius: 40px;
+   font-size:20px;
+   font-family: 'Times New Roman', Times, serif;
+   color:white;
+   background-color: rgba(235, 64, 64, 0.671);
+   
+   
+}
+
+.dokme:hover{
+  background-color: red;  
+  transition: 1s;
+  
+}
+
+.dokme-outer{
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
